@@ -20,6 +20,12 @@ while True:
         print "Shubham: in"
     else:
         print "Shubham: out"
+   result = bluetooth.lookup_name('94:n2:29:87:4f:9c', timeout=5)
+    if (result != None):
+        print "Satej: in"
+    else:
+        print "Satej: out"  
+        
 
     time.sleep(30)
 
